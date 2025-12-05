@@ -79,10 +79,11 @@ then now open your command prompt in your windows and if you dosent have awscli 
 ## **4️⃣ Configure AWS CLI With Retrieved Keys**
 
 enter this commands in the command prompt 
+```json
 SET AWS_ACCESS_KEY_ID=ASIAQ3EGUZMEYJB4ZCYA
 SET AWS_SECRET_ACCESS_KEY=0Xgeq3SkhcFo+xYPtXXRPPt+XDkBXq1bQY8lIbw8
 SET AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEI7////////// {token_here}
-
+```
 ## **5️⃣ Identify the EC2 Instance (Flag Extraction)**
 then write this command : aws sts get-caller-identity
 
