@@ -73,7 +73,7 @@ Submit the f access token.
 
 then you can see a **decoded payload**
 
-```json
+
 {
   "aud": "https://management.azure.com/",
   "iss": "https://sts.windows.net/f2a33211-e46a-4c92-b84d-aff06c2cd13f/",
@@ -102,12 +102,16 @@ then you can see a **decoded payload**
 
 ![Step 3 Screenshot](./screenshots/3.png)
 
-You can see the subscriptions details in the decoded payload 
+---
 
-```json
+You can see the subscriptions details in the decoded payload 
+---
+
 "xms_mirid": "/subscriptions/662a4fee-a3ba-49b3-9caf-8c20ed04503f/resourcegroups/Default-RG/providers/Microsoft.Compute/virtualMachines/it-vm",
 
 ![step 4 Screenshot](./screenshots/4.png)
+
+---
 
 the ID which is beside of the subscription is the **subscription ID**
 
