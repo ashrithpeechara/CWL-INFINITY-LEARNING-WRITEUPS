@@ -95,5 +95,6 @@ format :
     "Account": "058264439561",
     "Arn": "arn:aws:sts::058264439561:assumed-role/ec2-prod-role/i-092dea896856b986e"
 }
+```
 
 the flag is i-092dea896856b986e
