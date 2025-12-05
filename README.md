@@ -1,113 +1,89 @@
-#  About This CWL Labs Repository
+<h1 align="center">🔍 CWL Infinity Learning Lab Repository</h1>
 
-I have started working through the CWL Cybersecurity Lab Framework, which is built across **five major security domains**, each explored through both **Offensive** and **Defensive** lenses.  
-This repository serves as a structured archive of my lab walkthroughs, technical findings, screenshots, methodologies, and reflections across all domains.
-
----
-
-#  Domains Covered
-
-## 1. **Cloud Security**
-- **Offensive Cloud Security**
-  - IAM abuse  
-  - Metadata exploitation  
-  - Privilege escalation  
-  - Recon and misconfiguration attacks  
-
-- **Defensive Cloud Security**
-  - IAM hardening  
-  - Logging & monitoring  
-  - Cloud threat mitigation  
-  - Secure architecture practices  
+<p align="center">
+A structured and evolving archive of my offensive and defensive security learning journey through the <strong>CWL Cybersecurity Lab Framework</strong>.
+</p>
 
 ---
 
-## 2. **DevOps Security**
-- **Offensive DevOps**
-  - CI/CD exploitation  
-  - Pipeline poisoning  
-  - Supply-chain attacks  
-  - Secrets exposure  
+## 📘 Overview
 
-- **Defensive DevOps**
-  - Secure pipeline design  
-  - Vulnerability scanning  
-  - Secrets management  
-  - Artifact integrity controls  
+This repository documents my hands-on work across CWL’s five major cybersecurity domains — exploring both **Offensive** and **Defensive** approaches.  
+Each lab entry includes:
 
----
+- Methodologies  
+- Findings  
+- Commands & tooling  
+- Screenshots (where applicable)  
+- Reflections and learning outcomes  
 
-## 3. **Kubernetes Security**
-- **Offensive Kubernetes**
-  - RBAC exploitation  
-  - Pod escape  
-  - API server abuse  
-  - Cluster takeover techniques  
-
-- **Defensive Kubernetes**
-  - RBAC hardening  
-  - Admission controls  
-  - Network policies  
-  - Runtime security  
+This is not just a study repo — it’s a growing **DFIR + Cyber Operations portfolio**.
 
 ---
 
-## 4. **On-Premises Security**
-- **Offensive On-Prem**
-  - Recon & enumeration  
-  - Privilege escalation  
-  - Active Directory attacks  
-  - Lateral movement  
+## 🧠 Domains Covered
 
-- **Defensive On-Prem**
-  - Patch management  
-  - Segmentation  
-  - SIEM logging  
-  - Incident response strategies  
+### 1️⃣ Cloud Security
+**Offensive:** IAM abuse, metadata exploitation, privilege escalation, misconfiguration attacks  
+**Defensive:** IAM hardening, logging & monitoring, threat mitigation, secure architecture
 
 ---
 
-## 5. **APT Security**
-- **Offensive APT Techniques**
-  - Persistence mechanisms  
-  - Stealth operations  
-  - Evasion strategies  
-  - Multi-stage attacks  
-
-- **Defensive APT Readiness**
-  - Threat hunting  
-  - Detection engineering  
-  - MITRE ATT&CK mapping  
-  - Response playbooks  
+### 2️⃣ DevOps Security
+**Offensive:** CI/CD exploitation, pipeline poisoning, supply-chain attacks, secrets exposure  
+**Defensive:** Secure pipeline design, vulnerability scanning, secrets management, artifact integrity controls
 
 ---
 
-## 6. **AI Security**
-- **Offensive AI**
-  - Prompt exploits  
-  - Model extraction  
-  - Adversarial inputs  
-  - Poisoning attacks  
-
-- **Defensive AI**
-  - Model hardening  
-  - Secure guardrails  
-  - Input validation  
-  - Data integrity protections  
+### 3️⃣ Kubernetes Security
+**Offensive:** RBAC exploitation, pod escape, API server abuse, cluster takeover  
+**Defensive:** RBAC hardening, admission control, network policies, runtime security
 
 ---
 
-# 📁 What This Repository Contains
-- Structured writeups for each CWL lab  
-- Screenshots and evidence files  
-- Commands, notes, and tool breakdowns  
-- Offensive and defensive methodologies  
-- Key takeaways and reflections  
-- Templates for standardizing future labs  
+### 4️⃣ On-Prem Security
+**Offensive:** Recon, privilege escalation, Active Directory attacks, lateral movement  
+**Defensive:** Patch management, segmentation, SIEM, incident response workflows
 
 ---
 
-# 🚀 Vision
-This repository is designed as a long-term, structured knowledge base—capturing both the offensive creativity and defensive discipline required in modern cybersecurity.  
-Every commit reflects growth, clarity, and commitment toward mastering real-world security operations.
+### 5️⃣ APT Tradecraft
+**Offensive:** Persistence, stealth ops, evasion, multi-stage attacks  
+**Defensive:** Threat hunting, detection engineering, MITRE mapping, response playbooks
+
+---
+
+### 6️⃣ AI Security
+**Offensive:** Prompt exploits, model extraction, poisoning, adversarial examples  
+**Defensive:** Guardrails, secure inference, validation layers, dataset integrity controls
+
+---
+### 🧭 Branch Philosophy
+
+| Branch | Purpose |
+|--------|---------|
+| **`offensive`** | Exploitation workflows, attack chains, enumeration, PoCs, adversary simulations. |
+| **`defensive`** | Detection engineering, SIEM queries, hardening, SOC workflows, MITRE mapping, IR playbooks. |
+
+---
+## 📁 Repository Contents
+
+| File | Description |
+|--------|------------|
+| `Problem.md` | Problem Statement of the following LAB  |
+| `/Solution.md` | Detailed walkthroughs and lab deconstructions |
+| `/Screenshots` | ScreenShots of the following walkthrough process |
+
+---
+# 📬 Contact
+
+If you’re working on similar learning paths or want to collaborate on DFIR, threat hunting, or offensive security projects, reach out:
+
+**Email:** `ashrithcyber@gmail.com` 
+<br>
+**LinkedIn:** www.linkedin.com/in/ashrith-peechara-a60a862b6 
+
+---
+
+<p align="center"><strong>🚨 Work in Progress — Updated Regularly 🚨</strong></p>
 
